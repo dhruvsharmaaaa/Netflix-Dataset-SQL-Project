@@ -18,3 +18,10 @@ The data for this project is sourced from the Kaggle dataset: - **Dataset Link:*
 
 ## Schema
 <img width="503" height="344" alt="image" src="https://github.com/user-attachments/assets/a6c1b45b-c0d5-45b8-b7ae-d475ac83d626" />
+
+## Business Problems and Solutions
+
+### 1. Count the Number of Movies vs TV Shows
+
+```sql
+<img width="488" height="145" alt="image" src="https://github.com/user-attachments/assets/5ae3335d-5811-4d6a-8215-167d7ade4e49" />
