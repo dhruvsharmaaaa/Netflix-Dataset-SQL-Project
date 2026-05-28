@@ -215,3 +215,32 @@ LIMIT 10;
 ```
 
 **Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
+
+### 15. Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
+
+```sql
+SELECT 
+    category,
+    COUNT(*) AS content_count
+FROM (
+    SELECT 
+        CASE 
+            WHEN description ILIKE '%kill%' OR description ILIKE '%violence%' THEN 'Bad'
+            ELSE 'Good'
+        END AS category
+    FROM netflix
+) AS categorized_content
+GROUP BY category;
+```
+
+**Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+
+## Findings and Conclusion
+
+- **Content Distribution:** The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
+- **Common Ratings:** Insights into the most common ratings provide an understanding of the content's target audience.
+- **Geographical Insights:** The top countries and the average content releases by India highlight regional content distribution.
+- **Content Categorization:** Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+
+This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+
