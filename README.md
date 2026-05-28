@@ -24,4 +24,9 @@ The data for this project is sourced from the Kaggle dataset: - **Dataset Link:*
 ### 1. Count the Number of Movies vs TV Shows
 
 ```sql
-<img width="488" height="145" alt="image" src="https://github.com/user-attachments/assets/5ae3335d-5811-4d6a-8215-167d7ade4e49" />
+SELECT 
+    type,
+    COUNT(*)
+FROM netflix
+GROUP BY 1;
+```
