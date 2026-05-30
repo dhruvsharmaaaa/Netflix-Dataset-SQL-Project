@@ -88,7 +88,7 @@ The data for this project is sourced from the Kaggle dataset: - **Dataset Link:*
    GROUP BY type;
 
 5. Sheet 5: Top 10 Ratings Distribution
-6. ```sql
+   ```sql
    SELECT
     rating,
     COUNT(*) AS total_titles
@@ -98,7 +98,7 @@ The data for this project is sourced from the Kaggle dataset: - **Dataset Link:*
    ORDER BY total_titles DESC
    LIMIT 10;
 
-7. Sheet 6: Top 10 Directors
+6. Sheet 6: Top 10 Directors
    ```sql
    SELECT
     director,
@@ -109,7 +109,7 @@ The data for this project is sourced from the Kaggle dataset: - **Dataset Link:*
    ORDER BY total_titles DESC
    LIMIT 10;
 
-11. Sheet 7: Global KPI calculated fields
+7. Sheet 7: Global KPI calculated fields
     ```sql
     SELECT
     COUNT(show_id) AS total_titles,
