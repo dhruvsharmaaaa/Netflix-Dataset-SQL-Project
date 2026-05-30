@@ -14,6 +14,11 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
 
+## Tools Used
+- PostgreSQL — data cleaning and query building
+- Tableau Desktop — dashboard design and visualization
+- Dataset: Netflix Movies and TV Shows (Kaggle)
+
 ## Live Dashboard
 View on Tableau Public: -**Link:** [Tableau Public Link](https://public.tableau.com/app/profile/dhruv.sharma8302/viz/NetflixDashboard_17801640607900/NetfixDatabaseDashboard?publish=yes) 
 
